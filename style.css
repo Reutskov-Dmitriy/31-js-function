@@ -1,0 +1,16 @@
+form {
+	display: grid;
+	grid-template-columns: 60%, 40%;
+	gap: 10px;
+}
+
+input {
+	width: 80%;
+}
+
+output {
+	background-color: bisque;
+	display: block;
+	grid-column: 2/3;
+	grid-row: 1/3;
+}
